@@ -1,0 +1,13 @@
+Demo Receptionist
+Phone: 1111111111
+Password: password123
+Demo Pharmacist
+Phone: 2222222222
+Password: password123
+Demo Nurse
+Phone: 3333333333
+Password: password123
+
+Z_new = Z_old * (1 + (d * S * -1))
+Z_anchor = M / Z_old + Pos_old
+Pos_new = Pos_old - (M - (Z_anchor - Pos_old) * Z_new) / Z_new
